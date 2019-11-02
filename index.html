@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hikari Sudoku</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Amatic+SC|Dancing+Script|Lobster|Modak|Pacifico|Patrick+Hand|Indie+Flower|Righteous|Yellowtail|ZCOOL+XiaoWei&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Hikari Sudoku
+        </h1>
+        <nav>
+            <ul>
+                <li><a id="visible" href="#rules">Rules</a></li>
+                <li><a href="">Score</a></li>
+                <!-- <li><a href=""></a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <video id="vid" autoplay muted loop
+            src="video/'Free Motion Background!!! Instant download - Further Out_Full-HD.mp4"></video>
+
+        <audio autoplay loop src=" audio/'Track 02 氷菓(Hyouka) OST 6..m4a"></audio>
+
+            <div id="foggy"></div>
+
+            <div id="back">
+                <div id="front">
+                    <p id="rules"> Welcome to Hikari Sudoku <a id="hide" href="#" class="close">x</a> <br>
+                        The classic Sudoku game involves a grid of 81 squares. The grid is divided into nine blocks,
+                        each
+                        containing nine squares. <br>
+
+                        The rules of the game are simple: each of the nine blocks has to contain all the numbers 1-9
+                        within
+                        its
+                        squares. Each number can only appear once in a row, column or box. <br>
+
+                        The difficulty lies in that each vertical nine-square column, or horizontal nine-square line
+                        across,
+                        within the larger square, must also contain the numbers 1-9, without repetition or omission.
+                        <br>
+
+                        Every puzzle has just one correct solution. <br>
+                        Good Luck
+                    </p>
+                </div>
+            </div>
+
+            <form id="info">
+                <input type="text" name="name" id="newUser" placeholder="Solver Name" value required>
+                <input type="submit" id="button" value="Get a Puzzle">
+            </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+    <script src="js/home.js"></script>
+</body>
+
+</html>
